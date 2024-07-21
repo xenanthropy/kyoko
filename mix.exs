@@ -10,7 +10,8 @@ defmodule Kyoko.MixProject do
       deps: deps(),
       releases: [
         kyoko: [
-          include_executables_for: [:unix, :windows]
+          include_executables_for: [:unix, :windows],
+          steps: [:assemble, :tar]
         ]
       ]
     ]

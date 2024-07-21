@@ -16,7 +16,7 @@ or
 * [Build from source](INSTALL.md) and run the bot locally (you will need to create a discord bot [HERE](https://discord.com/developers/applications) and plug its bot token into config.exs or set the DISCORD_TOKEN env var)<br>
 
 or
-* Download the [latest release here](https://github.com/xenanthropy/kyoko/releases), navigate to kyoko/bin and run `./kyoko start` on linux/mac, `kyoko.bat start` for windows (the token is read from DISCORD_TOKEN environmental variable, run `export DISCORD_TOKEN=your_token_here` before running the command on linux/mac (and do the same for windows, whatever the command is..)
+* Download the [latest release here](https://github.com/xenanthropy/kyoko/releases), extract it to a folder, and run `./bin/kyoko start` on linux/mac, `kyoko.bat start` for windows (the token is read from DISCORD_TOKEN environmental variable, run `export DISCORD_TOKEN=your_token_here` before running the command on linux/mac (and do the same for windows, whatever the command is..)
 
 Once you have the bot added to your server through whatever means you chose: just run `/kyoko`! Tags are optional. Kyoko forces the use of `1girl` tag when no tag is specified (reduces the amount of posts the API has to retrieve) tags are separated by commas, spaces are replaced with underscores, i.e. `black_hair,blue_eyes,pink_bow`
 
